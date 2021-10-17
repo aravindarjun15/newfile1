@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin:0;
+}
+.navigator {
+    width:100%;
+    position: sticky;
+}
+.navigator ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    
+    
+}
+.navigator ul li{
+    text-decoration: none;
+    display: flex;
+    margin-left: 30px;
+    padding: 20px;
+    
+}
+.navigator ul li:hover{
+    background-color: lightpink;
+}
+
+.sidebar {
+    position:fixed;
+    left:0%;
+    width:200px;
+    height:100%;
+    background-color: honeydew;
+}
+
+.sidebar ul a{
+    
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    box-sizing: border-box;
+    left:0;
+}
+.sidebar ul li{
+    border:1px solid grey;
+    border-radius: 2px;
+    list-style-type: none;
+    padding-left: 2px;
+    text-align: center;
+    left:0;
+    
+    
+}
+.sidebar ul li:hover{
+    
+    background-color:lightpink;
+    box-shadow: 2px 2px 2px;
+}
